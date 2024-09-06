@@ -1,0 +1,27 @@
+[[headers]]
+  for = "./*"
+  [headers.values]
+    Cache-Control = "public,max-age=0"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "public,max-age=0"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    
+[[headers]]
+  for = "/apple-app-site-association"
+  [headers.values]
+    Content-Type = "application/json"
+    Cache-Control = "public,max-age=0"
+    X-Content-Type-Options = "nosniff"
+
+[[headers]]
+  for = "/.well-known/apple-app-site-association"
+  [headers.values]
+    Content-Type = "application/json"
+    Cache-Control = "public,max-age=0"
+    X-Content-Type-Options = "nosniff"

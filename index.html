@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-itunes-app" content="app-clip-bundle-id=com.binarybros.EtherealDimension.Clip, app-clip-display=card">
+    <title>Hylios Skylights</title>
+    <link rel="icon" href="data:,"> <!-- Prevents the browser from requesting favicon.ico -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>This is a sample web page hosted on Netlify.</p>
+    
+    <!-- Button for Universal Link -->
+    <button onclick="triggerUniversalLink()">Open Universal Link</button>
+
+    <!-- Button for App Clip -->
+    <button onclick="triggerAppClip()">Open App Clip</button>
+
+    <script>
+        function triggerUniversalLink() {
+            window.location.href = 'https://main--bucolic-muffin-fdeb25.netlify.app';
+        }
+
+        function triggerAppClip() {
+            window.location.href = 'https://appclip.apple.com/id?p=com.binarybros.EtherealDimension.Clip';
+        }
+    </script>
+</body>
+</html>

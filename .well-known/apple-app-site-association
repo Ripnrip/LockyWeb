@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "5Y7NBCKHJP.com.binarybros.Locky",
+        "paths": ["*","/*/auth/*"]
+      }
+    ]
+  },
+  "appclips": {
+    "apps": ["5Y7NBCKHJP.com.binarybros.Locky.Clip"]
+  }
+}
